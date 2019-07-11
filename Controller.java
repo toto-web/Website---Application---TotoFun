@@ -76,7 +76,7 @@ public class Controller {
 			JSONObject view = null;
 			JSONObject data = null;
 
-			JSONObject json = new JSONObject(jsonParam);
+			JSONObject json = new JSONObject(jsonParam1);
 			vietpdb123
 			if (Utility.isJsonKeyExistedAndNotNull(json, "type")) {
 				type = json.getInt("type");
