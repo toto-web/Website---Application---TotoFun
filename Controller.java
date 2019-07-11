@@ -1,3 +1,5 @@
+vietpdb123
+
 package com.bkav.aic.control;
 
 import java.io.BufferedReader;
@@ -75,7 +77,7 @@ public class Controller {
 			JSONObject data = null;
 
 			JSONObject json = new JSONObject(jsonParam);
-
+			vietpdb123
 			if (Utility.isJsonKeyExistedAndNotNull(json, "type")) {
 				type = json.getInt("type");
 			} else {
